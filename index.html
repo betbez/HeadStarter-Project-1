@@ -40,17 +40,27 @@
       <!-- Profile Section -->
       <section class="profile-section">
         <!-- Background video -->
-        <video class="background-video" autoplay muted loop>
-            <source src="images/ocean.mp4" type="video/mp4">
-            Browser does not support the video tag.
-        </video>
+        <div class="background-media">
+          <video class="background-video" autoplay muted loop playsinline>
+              <source src="images/ocean.mp4" type="video/mp4">
+              Browser does not support the video tag.
+          </video>
+          <div class="background-container">
+            <img src="images/stairs.jpg" alt="Background Image" class="background-image">
+          </div>
+        
         <div class="front">
           <img src="images/bb.jpg" alt="Profile Picture" class="profile">
           <div class="intro">
             <h1><span class="intro-part">Hello, I'm </span></h1>
               <span class="name">Bethel Bezabeh</span>
             <p>I am a <span class="dynamic-text"> </span>. </p>
+            <br>
+            <div class = "resume-container">
+              <a href="https://drive.google.com/file/d/1mbakXnIvkJ-DQ5fw9UA08y3mP23OC1iy/view?usp=sharing" target="_blank" class="resume-link">Resume</a>
+            </div>
           </div>
+        </div>
         </div>
       </section>
 
@@ -169,6 +179,18 @@
 
       <section class="affiliation">
         <h2>Affiliations</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+              <div class="timeline-icon"></div>
+              <div class="timeline-content">
+                <div class="timeline-content-left">
+                  <h3>HeadStarter AI</h3>
+                  <p class="role">Software Engineer Fellow</p>
+                  <p class="dates">July 2024 - Present</p>
+                </div>
+              </div>
+          </div>
+          
         <div class="timeline">
           <div class="timeline-item">
               <div class="timeline-icon"></div>
@@ -302,13 +324,16 @@
       </section>
 
       <section class="work">
-        <div class="email-container">
-         <a href="mailto:your.email@example.com" class="email-link">
-          <p id="contact" class="email"> Contact </p>
+    <div class="email-container">
+        <a href="mailto:your.email@example.com" class="email-link">
+          <br>
+          <p id="contact" class="email">Contact</p>
           <img src="images/email.png" alt="Email Logo" class="email-logo">
-         </a>
-        </div>
-      </section>
+          <br>
+        </a>
+    </div>
+</section>
+
     </main>
 
     <footer class="footer">
