@@ -3,7 +3,6 @@ body {
     margin: 0px;
     background-color: #04121b;
     padding: 0px;
-    font-family: "Courier New", Courier, monospace;
   }
   header {
     display: flex;
